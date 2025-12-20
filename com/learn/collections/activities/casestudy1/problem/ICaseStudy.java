@@ -1,8 +1,8 @@
 package com.learn.collections.activities.casestudy1.problem;
 
-import com.learn.collections.activities.foundation.fianance.Asset;
-import com.learn.collections.activities.foundation.people.Person;
-import com.learn.collections.activities.foundation.utilities.Rank;
+import com.learn.collections.activities.casestudy1.problem.fianance.Asset;
+import com.learn.collections.activities.casestudy1.problem.people.Person;
+import com.learn.collections.activities.casestudy1.problem.utilities.Rank;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

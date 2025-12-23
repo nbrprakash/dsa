@@ -7,8 +7,8 @@ public class SortTest {
 //        new SortTest().bubbleSort();
 //        new SortTest().selectionSort();
 //        new SortTest().insertionSort();
-        new SortTest().quickSort();
-//        new SortTest().mergeSort();
+//        new SortTest().quickSort();
+        new SortTest().mergeSort();
     }
 
     public void bubbleSort(){
@@ -34,7 +34,9 @@ public class SortTest {
     }
 
     public void mergeSort(){
-        Integer[] array = {10, 6, 90, 67, 1, 15, 5, 12};
+        Integer[] array = {10, 6, 90, 15, 1, 15, 5};
+
+        new MyMergeSort().sort(array);
     }
 
     public void radixSort(){

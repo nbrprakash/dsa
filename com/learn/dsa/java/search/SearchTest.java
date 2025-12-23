@@ -7,7 +7,8 @@ public class SearchTest {
 
 //        new SearchTest().linearSearch();
 //        new SearchTest().binarySearch();
-        new SearchTest().jumpSearch();
+//        new SearchTest().jumpSearch();
+        new SearchTest().fibonacciSearch();
     }
 
     private void linearSearch(){
@@ -34,6 +35,12 @@ public class SearchTest {
         new MyJumpSearch().search(array, 5, 2);
         new MyJumpSearch().search(array, 99, 2);
         new MyJumpSearch().search(array, 104, 2);
+    }
+
+    private void fibonacciSearch(){
+        int[] array = {10, 22, 24, 28, 31, 34, 39, 42, 45, 47, 50, 54, 58, 67, 71, 74, 77, 88, 90, 96, 99};
+
+        new MyFibonacciSearch().search(array, 47);
     }
 
 }

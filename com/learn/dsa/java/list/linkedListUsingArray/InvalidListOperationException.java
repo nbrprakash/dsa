@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.learn.dsa.java.list.arrayList;
+package com.learn.dsa.java.list.linkedListUsingArray;
 
 /**
  * 

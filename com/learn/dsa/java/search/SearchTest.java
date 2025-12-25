@@ -38,9 +38,9 @@ public class SearchTest {
     }
 
     private void fibonacciSearch(){
-        int[] array = {10, 22, 24, 28, 31, 34, 39, 42, 45, 47, 50, 54, 58, 67, 71, 74, 77, 88, 90, 96, 99};
-
-        new MyFibonacciSearch().search(array, 47);
+//        int[] array = {10, 22, 24, 28, 31, 34, 39, 42, 45, 47, 50, 54, 58, 67, 71, 74, 77, 88, 90, 96, 99};
+        int[] array = {10, 22, 24};
+        new MyFibonacciSearch().search(array, 25);
     }
 
 }

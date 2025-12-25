@@ -40,7 +40,9 @@ public class SortTest {
     }
 
     public void radixSort(){
+        Integer[] array = {10, 6, 90, 15, 1, 15, 5};
 
+        new MyRadixSort().sort(array);
     }
 
 

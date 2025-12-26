@@ -8,7 +8,8 @@ public class SortTest {
 //        new SortTest().selectionSort();
 //        new SortTest().insertionSort();
 //        new SortTest().quickSort();
-        new SortTest().mergeSort();
+//        new SortTest().mergeSort();
+        new SortTest().radixSort();
     }
 
     public void bubbleSort(){
